@@ -1,0 +1,207 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;600;800&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+body {
+    background: radial-gradient(circle at 50%, #fff0f0, #5f119fb7);
+    min-height: 100vh;
+}
+
+/* Header - Navegação ↓ */
+
+.container {
+    max-width: auto;
+    margin: 0 auto;
+    padding: 0 4%;
+    background: #fff0f0;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 110px;
+    
+}
+
+nav .menu-icon {
+    cursor: pointer;
+    display: none;
+}
+
+nav img {
+    width: 8rem;
+}
+
+nav ul {
+    display: flex;
+    list-style: none;
+    align-items: center;
+}
+
+nav ul li {
+    padding: 0 15px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    font-size: 17px;
+    text-transform: uppercase;
+    color: #60119f;
+}
+
+nav ul li a:hover {
+    color: #a741af;
+}
+
+ul .button {
+    border: 2px solid #60119f;
+    background: #60119f;
+    padding: 6px 16px;
+    border-radius: 20px;
+    color: #fff;
+    transition: all ease 0.3s;
+}
+
+ul .button:hover {
+    background: #fff0f0;
+    color: #60119f;
+}
+
+/* Fim da barra de navegação ↑ */
+
+/* Main - Conteúdo ↓ */
+
+main {
+    margin: 50px 0 0 100px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.text-main {
+    width: 40%;
+    
+}
+
+.text-main h2 {
+    font-size: 4rem;
+    line-height: 60px;
+    font-weight: 600;
+    color: #fff;
+    text-shadow: 2px 2px 5px #7e6195;
+}
+
+.text-main h2 b {
+    color: #60119f;
+}
+
+span {
+    font-weight: 300;    
+}
+
+main p {
+    color: rgb(57, 7, 129);
+    font-weight: 600;
+    font-size: 16px;
+    margin: 20px 20px 0 0;
+    text-align: left;
+    text-shadow: 2px 3px 15px #fff;
+}
+
+main .contact-us .api-whatsapp {
+    border: 1px solid #087a20;
+    border-radius: 30px;
+    background-color: #087a20;
+    width: 40%;
+    display: block;
+    height: 50px;
+    padding: 10px;
+    text-align: center;
+    color: #fff;
+    text-decoration: none;
+    font-size: 16px;
+    margin: 30px 0 0 0;
+}
+
+.social-media {
+    margin-top: 30px;
+}
+
+.social-media i {
+    font-size: 2rem;
+    margin: 0 4px;
+    color: #fff;
+    background: #60119f;
+    padding: 8px 12px;
+    border-radius: 10px;
+}
+
+#facebook {
+    padding: 8px 15px;
+}
+
+.image-main {
+    width: 60%;
+    text-align: center;
+}
+
+.image-main img {
+    width: 60%;
+    margin: 0 100px 0 130px;
+}
+
+/* Página Quem Somos */
+
+
+@media (max-width: 970px) {
+    nav .menu-icon {
+        display: block;   
+    }
+
+    nav .menu-icon img {
+        width: 50px;
+    }
+
+    nav ul {
+        position: fixed;
+        width: 60%;
+        height: 100%;
+        top: 0;
+        left: 0;
+        transform: translate(-100%);
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        justify-content: center;
+        transition: 0.3s ease-in;
+        background-color: #a741af;
+    }
+
+    nav ul.active {
+        transform: translateX(0);
+    }
+
+    nav ul li {
+        padding: 10px;
+    }
+
+    nav ul li a {
+        font-size: 18px;
+        color: #fff;
+        margin: 10px;
+    }
+
+    .text-main, .image-main {
+        flex-direction: column;
+    } 
+}
+
+ 
+
+

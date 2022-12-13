@@ -6,11 +6,9 @@ menuBar.addEventListener('click',()=>{
 
     menu.classList.toggle('active');
 
-    if (iconMenu.getAttribute("src") == 'assets/images/menu.png') {
-        iconMenu.setAttribute("src","assets/images/close.png");
+    if (iconMenu.getAttribute("src") == 'assets/images/close.png') {
+        iconMenu.setAttribute("src","assets/images/menu.png");
     }else{
-        iconMenu.setAttribute("src","assets/images/menu.png"); 
-    }
-
-    
+        iconMenu.setAttribute("src","assets/images/close.png"); 
+    }  
 })

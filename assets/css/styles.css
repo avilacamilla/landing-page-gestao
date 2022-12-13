@@ -159,7 +159,89 @@ main .contact-us .api-whatsapp {
 /* Página Quem Somos */
 
 
-@media (max-width: 970px) {
+@media (max-width: 320px) {
+    nav .menu-icon {
+        display: block;   
+    }
+
+    nav .menu-icon img {
+        width: 50px;
+    }
+
+    nav ul {
+        position: fixed;
+        width: 60%;
+        height: 100%;
+        top: 0;
+        left: 0;
+        transform: translate(-100%);
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        justify-content: center;
+        transition: 0.3s ease-in;
+        background-color: #a741af;
+    }
+
+    nav ul.active {
+        transform: translateX(0);
+    }
+
+    nav ul li {
+        padding: 10px;
+    }
+
+    nav ul li a {
+        font-size: 18px;
+        color: #fff;
+        margin: 10px;
+    }
+}
+
+@media (max-width: 480px) {
+    nav .menu-icon {
+        display: block;   
+    }
+
+    nav .menu-icon img {
+        width: 50px;
+    }
+
+    nav ul {
+        position: fixed;
+        width: 60%;
+        height: 100%;
+        top: 0;
+        left: 0;
+        transform: translate(-100%);
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        justify-content: center;
+        transition: 0.3s ease-in;
+        background-color: #a741af;
+    }
+
+    nav ul.active {
+        transform: translateX(0);
+    }
+
+    nav ul li {
+        padding: 10px;
+    }
+
+    nav ul li a {
+        font-size: 18px;
+        color: #fff;
+        margin: 10px;
+    }
+
+    .text-main, .image-main {
+        flex-direction: column;
+    } 
+}
+
+@media (max-width: 600px) {
     nav .menu-icon {
         display: block;   
     }

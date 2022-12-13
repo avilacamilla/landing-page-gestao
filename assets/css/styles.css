@@ -59,6 +59,7 @@ nav ul li a:hover {
     color: #a741af;
 }
 
+
 ul .button {
     border: 2px solid #60119f;
     background: #60119f;
@@ -71,6 +72,10 @@ ul .button {
 ul .button:hover {
     background: #fff0f0;
     color: #60119f;
+}
+
+#menu-toggle {
+    width: 75%;    
 }
 
 /* Fim da barra de navegação ↑ */
@@ -160,10 +165,7 @@ main .contact-us .api-whatsapp {
 
 
 @media (max-width: 320px) {
-    .container {
-        max-width: 320px;
-    }
-    
+      
     nav .menu-icon {
         display: inline;  
     }
@@ -213,7 +215,7 @@ main .contact-us .api-whatsapp {
 
     main {
         display: block;
-        margin: 50px 20px 0 40px;
+        margin: 80px 20px 0 40px;
         
     }
 
@@ -223,12 +225,13 @@ main .contact-us .api-whatsapp {
 
     .text-main h2 {
         font-size: 2.3rem;
-        line-height: 30px;
+        line-height: 32px;
         
     }
 
     main .contact-us .api-whatsapp {
         width: 94%;
+        margin-top: 40px;
         
     }
 
@@ -239,10 +242,12 @@ main .contact-us .api-whatsapp {
 
     .image-main {
         width: 100%;
+        text-align: center;
     }
 
     .image-main img {
-        margin: 30px 40px 0 40px;
+        width: 80%;
+        margin: 40px 10px 0 0;
     }
 }
 

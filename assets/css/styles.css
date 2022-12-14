@@ -111,12 +111,12 @@ span {
 }
 
 main p {
-    color: rgb(57, 7, 129);
+    color: rgb(0, 0, 0);
     font-weight: 600;
     font-size: 16px;
     margin: 20px 20px 0 0;
     text-align: left;
-    text-shadow: 2px 3px 15px #fff;
+    text-shadow: 2px 3px 15px rgb(249, 245, 245);
 }
 
 main .contact-us .api-whatsapp {

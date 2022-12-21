@@ -18,7 +18,7 @@ body {
     max-width: auto;
     margin: 0 auto;
     padding: 0 4%;
-    background: #fff0f0;
+    background: #fefefe;
 }
 
 nav {
@@ -61,7 +61,7 @@ nav ul li a:hover {
 
 
 ul .button {
-    border: 2px solid #60119f;
+    border: 3px solid #60119f;
     background: #60119f;
     padding: 6px 16px;
     border-radius: 20px;
@@ -70,7 +70,7 @@ ul .button {
 }
 
 ul .button:hover {
-    background: #fff0f0;
+    background: #fefefe;
     color: #60119f;
 }
 
@@ -111,32 +111,40 @@ span {
 }
 
 main p {
-    color: rgba(0, 0, 0, 0.678);
+    color: #000;
     font-weight: 500;
     font-size: 16px;
     margin: 20px 20px 0 0;
-    text-align: left;
-    text-shadow: 2px 3px 15px rgb(249, 245, 245);
+    text-align: justify;
+    text-shadow: 2px 3px 15px rgb(194, 191, 191);
 }
 
 main .p-news {
     color: #5f119f;
-    font-weight: 900;
+    font-weight: 600;
 }
 
 main .contact-us .api-whatsapp {
     border: 1px solid #087a20;
-    border-radius: 30px;
+    border-radius: 2rem;
     background-color: #087a20;
-    width: 40%;
+    width: 39%;
     display: block;
-    height: 50px;
-    padding: 10px;
+    height: 3.1rem;
+    padding: 0.6rem;
     text-align: center;
     color: #fff;
     text-decoration: none;
     font-size: 18px;
     margin: 30px 0 0 0;
+    transition: all 0.5s;
+    cursor: pointer;
+    
+}
+
+main .contact-us .api-whatsapp:hover {
+    -webkit-transform: scale(1.5);
+    transform: scale(1.1);
 }
 
 .social-media {
@@ -145,11 +153,18 @@ main .contact-us .api-whatsapp {
 
 .social-media i {
     font-size: 2rem;
-    margin: 0 4px;
+    margin: 0 10px;
     color: #fff;
     background: #60119f;
     padding: 8px 12px;
     border-radius: 10px;
+    transition: all 0.5s;
+    cursor: pointer;
+}
+
+.social-media i:hover {
+    -webkit-filter: drop-shadow(15px 10px 10px rgba(0,0,0,.5));
+    filter: drop-shadow(15px 10px 10px rgba(0,0,0,.5));
 }
 
 #facebook {
@@ -229,9 +244,19 @@ main .contact-us .api-whatsapp {
     }
 
     .text-main h2 {
-        font-size: 2.3rem;
-        line-height: 32px;
+        font-size: 1rem;
+        line-height: 15px;
         
+    }
+
+    .text-main p {
+        font-size: 0.9rem;
+        margin: 2rem 0 0 1.4rem;
+    }
+    
+    main .p-news {
+        color: #5f119f;
+        font-weight: 600;
     }
 
     main .contact-us .api-whatsapp {
@@ -533,94 +558,33 @@ main .contact-us .api-whatsapp {
     }
 }
 
-@media (max-width: 1025px) {
-    nav .menu-icon {
-        display: inline;  
-    }
 
-    nav .menu-icon img {
-        width: 3rem;
-    }
 
-    nav img {
-        width: 7.4rem;
-    }
-
-    nav ul {
-        position: fixed;
-        width: 60%;
-        height: 100%;
-        top: 0;
-        left: 0;
-        transform: translate(-100%);
-        display: flex;
-        align-items: center;
-        flex-direction: column;
-        justify-content: center;
-        transition: 0.3s ease-in;
-        background-color: #a841af;
-    }
-
-    nav ul.active {
-        transform: translateX(0);
-
-        background: linear-gradient(70deg, #5f119f, #fff0f0d5);
-    }
-
-    nav ul li {
-        padding: 10px;
-    }
-
-    nav ul li a {
-        font-size: 17px;
-        color: #fff;
-        margin: 10px;
-    }
-
-    nav .button {
-        font-size: 17px;
-    }
-
-    main {
-        display: block;
-        margin: 80px 20px 0 40px;
-        
-    }
-
+@media (max-width: 1360px) {
+   
     .text-main {
-       width: 100%;
+        width: 75%;
     }
 
     .text-main h2 {
-        font-size: 2.8rem;
-        line-height: 36px;
-        margin: 0 30px 0 30px;
-        
+        font-size: 3.5rem;
+        line-height: 50px;
     }
 
     main .contact-us .api-whatsapp {
-        width: 94%;
+        width: 39%;
         margin-top: 40px;
         
     }
 
-    .social-media {
-        text-align: center;
-    }
-
-    .social-media i {
-        font-size: 2rem;
-        margin: 20px 30px 10px 0;
-    }
-
     .image-main {
-        width: 100%;
+        width: 80%;
         text-align: center;
     }
 
     .image-main img {
         width: 60%;
-        margin: 40px 10px 0 0;
+        margin: 20px 10px 0 0;
     }
 
 }

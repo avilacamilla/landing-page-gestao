@@ -324,12 +324,12 @@ footer {
     }
 
     #logo-end-responseveness {
-        display: none;
+        margin: 2rem 0 0 0;
     }
 
     #responsiveness-footer {
         text-align: center;
-        font-size: 0.9rem;
+        font-size: 0.8rem;
         color: #2c044c;
     }
     

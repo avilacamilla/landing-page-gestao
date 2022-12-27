@@ -280,6 +280,12 @@ footer {
         text-align: left;
     }
 
+    #h2-responsiveness-about {
+        font-size: 2.5rem;
+        line-height: 2.7rem;
+        text-align: left;
+    }
+
     span {
         font-size: 3rem;
     }

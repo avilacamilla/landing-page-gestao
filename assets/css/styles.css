@@ -297,6 +297,18 @@ footer {
         font-weight: 500;
         margin: 2rem 0 0 0;
     }
+
+    .text-main .bpo-adm {
+        text-decoration: none;
+    }
+
+    .text-main .bpo-adm:hover {
+        color: #a741af;
+    }
+
+    .text-main #cursor {
+        width: 1rem;    
+    }
     
     main .p-news {
         color: #2c044c;

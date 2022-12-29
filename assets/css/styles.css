@@ -132,6 +132,19 @@ main #p-news {
     padding: 0.8rem 0.3rem;
 }
 
+.text-main .bpo-adm {
+    text-decoration: none;
+    color: #5f119f ;
+}
+
+.text-main .bpo-adm:hover {
+    color: #a741af;
+}
+
+.text-main #cursor {
+    width: 1rem;    
+}
+
 main .contact-us .api-whatsapp {
     border: 1px solid #087a20;
     border-radius: 2rem;

@@ -7,8 +7,20 @@
 </tr>
 </table>
 
+## Versão web
+--> Home
+![Captura de tela 2022-12-29 - 19 54 43](https://user-images.githubusercontent.com/115038212/210113284-965bfc8b-ed81-47e3-b62a-e45ce9db9889.png)
 
-![127 0 0 1_5501_home html (1)](https://user-images.githubusercontent.com/115038212/206935526-705a757c-2eb3-491f-9ee7-ad1ca25d7808.png)
+--> Quem Somos
+![127 0 0 1_5501_public_about-us html](https://user-images.githubusercontent.com/115038212/210113358-91fc267b-ebe8-4f30-89f2-fc1d3df67ac7.png)
+
+
+## Versão Mobile
+--> Home
+![127 0 0 1_5501_home html(iPhone X)](https://user-images.githubusercontent.com/115038212/210113210-efc0c5fb-1451-43cb-a783-9d9fd53c59de.png)
+
+--> Quem Somos
+![127 0 0 1_5501_about-us html(iPhone X)](https://user-images.githubusercontent.com/115038212/210113220-30d69202-71ad-4dec-ab89-0f40596d0954.png)
 
 ## Conheça o projeto 😉
 Aqui você acessa uma demostração da aplicação: https://aderegestao.netlify.app/
